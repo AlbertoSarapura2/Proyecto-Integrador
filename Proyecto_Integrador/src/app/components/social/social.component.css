@@ -1,0 +1,17 @@
+img{
+    width: 50px;
+}
+/* Esto es para que cambien de color los iconos al apuntar en ellos*/
+a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+
+a:hover{
+    background-color: #605bf3;
+    border-radius: 50%;
+}
