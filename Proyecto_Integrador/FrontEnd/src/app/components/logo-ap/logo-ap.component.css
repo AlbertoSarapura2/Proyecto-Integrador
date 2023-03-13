@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 0.5em;
+}
+.btn{
+    border-width: medium;
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 50px;
+}
+/* Esto es para que cambien de color los iconos al apuntar en ellos*/
+a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+
+a:hover{
+    background-color: #605bf3;
+    border-radius: 50%;
+}
+/*--- Para la vista de celular ---*/
+@media (max-width:575px){
+
+    .container{
+        flex-direction: column; /*Para que se pongan uno debajo de otro*/
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img {
+        margin: 0.2em;
+    }
+}
